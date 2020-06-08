@@ -82,7 +82,7 @@ public class Game {
         }
         else {
             IllegalArgumentException exception = new IllegalArgumentException("Maximum amount of players is 6");
-            System.out.println("Maximum amount of players is 6.");
+            System.out.println("Maximum amount of players is 6");
             throw exception;
         }
 
