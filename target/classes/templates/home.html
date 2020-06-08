@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Life Counter</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="css/home.css" />
+</head>
+<body>
+<!--<ul>-->
+    <!--<li><img src="/img/life_counter.png" height="70"/></li>-->
+<!--</ul>-->
+<div class="topnav">
+    <img src="/img/life_counter.png" height="70"/>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="blackBox">
+<div class="content">
+    <label id="choosePlayer" for="players">PLAYERS</label><br>
+    <select name="play" id="players">
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+    </select>
+    <!--<input type="number" id="players" max="10" min="0">-->
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <label for="lifePoint">START LIFE</label><br>
+    <input style="text-align: center; padding-left: 0px;" type="number" id="lifePoint" placeholder="1-100">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="center">
+        <button type="button" id="startButton" class="button">START</button>
+    </div>
+</div>
+
+</div>
+
+</body>
+<script>
+
+    // onclick="saveLife(); location.href='/game'"
+
+    $( document ).ready(function() {
+
+        $("#startButton").click(function() {
+
+            if ($("#lifePoint").val() > 100) {
+                alert("Invalid start life\nPlease choose a number between 1-100");
+                // window.location = "/game"
+                throw "life cannnot be over 100"
+            }
+
+            if ($("#lifePoint").val() < 1) {
+                alert("Invalid start life\nPlease choose a number between 1-100");
+                throw "life cannnot be under 1"
+            }
+
+            if($("#lifePoint").val() < 101 && $("#lifePoint").val() > 0) {
+                saveLife();
+            }
+        })
+    });
+
+
+    function saveLife(){
+        var lifeInput = document.getElementById("lifePoint").value;
+        // Store
+        localStorage.setItem("lifeOutput", lifeInput);
+        var lifeInt = parseInt(document.getElementById("lifePoint").value);
+
+        if($("#lifePoint").val() < 101 && $("#lifePoint").val() > 0) {
+
+
+            $.ajax({
+                type: 'POST',
+                url: '/add-StartLife',
+                data: {'life': lifeInt},
+                dataType: 'json',
+                success: function (data) {
+                    console.log("Start Life saved " + data);
+                }
+            });
+
+            $(this).delay(400).queue(function() {
+
+                savePlayer();
+
+                window.location = "/game";
+
+                $(this).dequeue();
+
+            });
+
+
+        }
+        else{
+            throw "life cannnot be over 100"
+
+        }
+
+
+
+
+    }
+
+    function savePlayer(){
+        var playerInput = document.getElementById("players").value;
+        // Store
+        localStorage.setItem("Players", playerInput);
+        var playerInt = parseInt(document.getElementById("players").value);
+
+        $.ajax({
+            type: 'POST',
+            url: '/add-Players',
+            data: {'players': playerInt},
+            dataType: 'json',
+            success: function (data) {
+                console.log("Players added " + data);
+            }
+        });
+
+    }
+
+
+</script>
+</html>

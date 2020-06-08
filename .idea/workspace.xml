@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e805153b-1fee-4fcc-aa70-1e81437711d1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/mandatory/test/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mandatory/test/HomeController.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>playerA</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectId" id="1caiZMBjBx9hMpwoCD3YVNaKGAW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590765226311" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="mandatory.test" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/static/img" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/css" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/css/css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.TestApplication">
+    <configuration name="LifeCountTestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mandatory.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mandatory.test" />
+      <option name="MAIN_CLASS_NAME" value="mandatory.test.LifeCountTestTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LifeCountTestTest.lifeCountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mandatory.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mandatory.test" />
+      <option name="MAIN_CLASS_NAME" value="mandatory.test.LifeCountTestTest" />
+      <option name="METHOD_NAME" value="lifeCountTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeleniumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mandatory.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mandatory.test" />
+      <option name="MAIN_CLASS_NAME" value="mandatory.test.SeleniumTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeleniumTest.setLifeToMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mandatory.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mandatory.test" />
+      <option name="MAIN_CLASS_NAME" value="mandatory.test.SeleniumTest" />
+      <option name="METHOD_NAME" value="setLifeToMax" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeleniumTest.validPlayers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mandatory.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mandatory.test" />
+      <option name="MAIN_CLASS_NAME" value="mandatory.test.SeleniumTest" />
+      <option name="METHOD_NAME" value="validPlayers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="mandatory.test.TestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SeleniumTest.setLifeToMax" />
+        <item itemvalue="JUnit.SeleniumTest" />
+        <item itemvalue="JUnit.SeleniumTest.validPlayers" />
+        <item itemvalue="JUnit.LifeCountTestTest" />
+        <item itemvalue="JUnit.LifeCountTestTest.lifeCountTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SQLPlugin.ProjectConfiguration">
+    <queries />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e805153b-1fee-4fcc-aa70-1e81437711d1" name="Default Changelist" comment="" />
+      <created>1585835288202</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585835288202</updated>
+      <workItem from="1585835292261" duration="2121000" />
+      <workItem from="1585841743694" duration="3919000" />
+      <workItem from="1585897711573" duration="324000" />
+      <workItem from="1590246949534" duration="5000" />
+      <workItem from="1590246982361" duration="16156000" />
+      <workItem from="1590307915162" duration="28374000" />
+      <workItem from="1590346329664" duration="19733000" />
+      <workItem from="1590412299268" duration="26634000" />
+      <workItem from="1590567956078" duration="17678000" />
+      <workItem from="1590592107812" duration="6159000" />
+      <workItem from="1590656640549" duration="10615000" />
+      <workItem from="1590738820634" duration="14586000" />
+      <workItem from="1590764092530" duration="980000" />
+      <workItem from="1590773167628" duration="3997000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+</project>
