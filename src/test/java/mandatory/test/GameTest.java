@@ -14,11 +14,7 @@ class GameTest {
 
     Game game = new Game();
 
-    // MISSING
-//    ? - Test to check that the game board is over when life count is 0
-//    ? - The test to check start new game
-//    ? - The test to check life count adjustment
-//    ? - The test to check start ‘dice’ rolled and making sure the random number is between 1 and amount of players
+
 
     @Before
     public void setUp(){
@@ -33,14 +29,11 @@ class GameTest {
         ArrayList<Integer> invalidInputs = new ArrayList<Integer>( Arrays.asList(-1, 0, 7));
 
         // Checking if valid inputs passes
-
         for(int i = 0; i<validInputs.size(); i++) {
             assertEquals(game.addPlayers(validInputs.get(i)), validOutputs.get(i));
             game.setPlayerAmount(0);
         }
-
         // Checking if invalid inputs throws an exception
-
         for(int i = 0; i <invalidInputs.size(); i++) {
             int finalI = i;
             assertThrows(IllegalArgumentException.class, () -> game.addPlayers(invalidInputs.get(finalI)));
@@ -225,4 +218,10 @@ class GameTest {
         }
 
     }
+
+    // MISSING
+//    ? - Test to check that the game board is over when life count is 0
+//    ? - The test to check start new game
+//    ? - The test to check life count adjustment
+//    ? - The test to check start ‘dice’ rolled and making sure the random number is between 1 and amount of players
 }

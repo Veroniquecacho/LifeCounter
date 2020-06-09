@@ -80,7 +80,12 @@ public class Game {
                 playerNames.put("Player " + (i + 1), "Player " + (i + 1));
             }
         }
-        else {
+        else if(playerInput < 2 ) {
+            IllegalArgumentException exception = new IllegalArgumentException("Minimun amount of players is 2");
+            System.out.println("Minimun amount of players is 2");
+            throw exception;
+        }
+        else if(playerInput > 6 ) {
             IllegalArgumentException exception = new IllegalArgumentException("Maximum amount of players is 6");
             System.out.println("Maximum amount of players is 6");
             throw exception;

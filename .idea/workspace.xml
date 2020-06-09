@@ -28,11 +28,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="877" />
-  </component>
   <component name="ProjectId" id="1caiZMBjBx9hMpwoCD3YVNaKGAW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -82,7 +77,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.TestApplication">
+  <component name="RunManager" selected="JUnit.GameTest.addPlayers">
+    <configuration name="GameTest.addPlayers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mandatory.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mandatory.test" />
+      <option name="MAIN_CLASS_NAME" value="mandatory.test.GameTest" />
+      <option name="METHOD_NAME" value="addPlayers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LifeCountTestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <extension name="coverage">
@@ -94,22 +105,6 @@
       <option name="PACKAGE_NAME" value="mandatory.test" />
       <option name="MAIN_CLASS_NAME" value="mandatory.test.LifeCountTestTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LifeCountTestTest.lifeCountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mandatory.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mandatory.test" />
-      <option name="MAIN_CLASS_NAME" value="mandatory.test.LifeCountTestTest" />
-      <option name="METHOD_NAME" value="lifeCountTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -170,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GameTest.addPlayers" />
         <item itemvalue="JUnit.SeleniumTest.setLifeToMax" />
         <item itemvalue="JUnit.SeleniumTest" />
         <item itemvalue="JUnit.SeleniumTest.validPlayers" />
         <item itemvalue="JUnit.LifeCountTestTest" />
-        <item itemvalue="JUnit.LifeCountTestTest.lifeCountTest" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +200,8 @@
       <workItem from="1590738820634" duration="14586000" />
       <workItem from="1590764092530" duration="980000" />
       <workItem from="1590773167628" duration="3997000" />
-      <workItem from="1591648396574" duration="219000" />
+      <workItem from="1591648396574" duration="621000" />
+      <workItem from="1591702557831" duration="1150000" />
     </task>
     <servers />
   </component>
