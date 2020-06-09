@@ -24,7 +24,7 @@ class GameTest {
     @Test
     void addPlayers() {
 
-        ArrayList<Integer> validInputs = new ArrayList<Integer>( Arrays.asList(1, 4, 6));
+        ArrayList<Integer> validInputs = new ArrayList<Integer>( Arrays.asList(2, 4, 6));
         ArrayList<Integer> validOutputs = new ArrayList<Integer>( Arrays.asList(2, 4, 6));
         ArrayList<Integer> invalidInputs = new ArrayList<Integer>( Arrays.asList(-1, 0, 7));
 
