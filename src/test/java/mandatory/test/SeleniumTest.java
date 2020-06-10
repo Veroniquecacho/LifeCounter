@@ -66,7 +66,7 @@ public class SeleniumTest {
       // 6 | type | id=lifePoint | 50
       driver.findElement(By.id("lifePoint")).sendKeys("50");
       // 7 | click | id=startButton |
-      driver.findElement(By.id("startButton")).click();
+      driver.findElement(By.id("startButton.")).click();
       Thread.sleep(2000);
 
     }
